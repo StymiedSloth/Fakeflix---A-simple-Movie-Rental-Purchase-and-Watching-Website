@@ -1,0 +1,254 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+textarea{
+    width: 312px;
+    height: 100px;
+    resize: none;
+}
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#cartcount {
+    float: right;
+    cursor: pointer; cursor: hand;    
+}
+
+#searchimage{
+    margin-top:18px; 
+    margin-right: 8px;
+    float:right;
+    cursor: pointer; cursor: hand; 
+}
+
+#searchimage:hover{
+    -webkit-transform:scale(1.0); /* Safari and Chrome */
+    -moz-transform:scale(1.0); /* Firefox */
+    -ms-transform:scale(1.0); /* IE 9 */
+    -o-transform:scale(1.0); /* Opera */
+     transform:scale(1.0);
+    /*opacity: 0.6;*/
+    /*filter: alpha(opacity=60);*/
+}
+
+.site_image{
+    float: left;
+    /*display: inline;        */
+    margin-left: 20px;
+    margin-top:14px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    cursor: pointer; cursor: hand;
+}
+
+#site_title_div > img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#site_title_div:hover > img{
+    -webkit-transform:scale(1.0); /* Safari and Chrome */
+    -moz-transform:scale(1.0); /* Firefox */
+    -ms-transform:scale(1.0); /* IE 9 */
+    -o-transform:scale(1.0); /* Opera */
+     transform:scale(1.0);
+    /*opacity: 0.6;*/
+    /*filter: alpha(opacity=60);*/
+}
+
+#site_title_div:hover > h2{
+    font-weight:300;
+}
+
+.site_title {
+    color: white;
+    float: left;
+    display: inline;        
+    font-weight: 100;
+    margin-left: 5px;
+    cursor: pointer; cursor: hand;
+}
+
+.cart_title {
+    color: white;
+    float: left;
+    display: inline;        
+    font-weight: 100;    
+    cursor: pointer; cursor: hand;
+}
+
+.header_div {
+    width: auto;
+    height: 45px;    
+    background-color: #283442;    
+    color: White;
+}
+
+#cartcount {
+    float: right;
+    margin-right: 20px;
+}
+
+.submitLink {
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: White;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    cursor: pointer; cursor: hand;
+}
+
+/*Movie Details Page*/
+
+.banner_movie { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   background-color: #000000;
+}
+
+.banner_movie > h1 { 
+   position: absolute; 
+    text-transform: uppercase;
+   top: 50px; 
+   left: 50px;
+   width: 100%; 
+    font-weight: 100;
+    font-size: 3em;
+}
+
+h1 > span { 
+   color: white;
+}
+
+.banner_image 
+{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.rentpurchase_links {
+    text-decoration:underline;
+    color: White;
+    font-size: 1.5em;
+    cursor: pointer; cursor: hand;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.watch_links {
+    text-decoration:underline;
+    color: White;
+    font-size: 1.5em;
+    cursor: pointer; cursor: hand;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/*Movies Main page*/
+
+.form-div {
+    cursor: pointer; cursor: hand;
+}
+
+#movies_main_h1 {    
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+/*Add to cart page*/
+.carttable {
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 0px;
+    width: 90%;
+}
+td, th {
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  width:150px;
+  padding: 5px;
+}
+th {
+  background: #fffffd;
+  font-weight: 300;
+/*  color: White;*/
+}
+
+.cart_movie_title{
+    padding-left: 50px;
+    margin-top: 33px;
+    font-size: 1.5em;
+}
+
+button{ 
+    width: auto; 
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 9px 15px; 
+    background: #AA66CC; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    border: 0; 
+    font-size: 14px; 
+    color: White; 
+    cursor: pointer; cursor: hand;
+    }
+
+a{
+    text-decoration: underline;
+    cursor: pointer; cursor: hand;
+    font-size: 0.9em;
+}
+
+.countdown-styled div {
+  display: inline-block;
+  border-bottom: 1px solid #cecece;
+  margin: 0 3px 1em;
+  margin-top: -5px;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1;
+  text-align: right;
+}
+
+.countdown-styled div:first-child {
+  margin-left: 0;
+}
+
+.countdown-styled div:last-child {
+  margin-right: 0;
+}
+
+.countdown-styled div span {
+  /*display: block;*/
+  /*border-top: 1px solid #cecece;*/
+  
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/*Add to cart page*/
+
+#result_div h2 {
+    color: black;
+    display: inline-block;
+    font-weight: 100;    
+}
